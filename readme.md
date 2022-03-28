@@ -27,9 +27,14 @@
 
 
 ---
-![structure](https://user-images.githubusercontent.com/70065792/160499278-fe103104-de55-4d72-9f3e-c94dc9b9e30a.PNG)
 
 ##### Project structure
+![structure](https://user-images.githubusercontent.com/70065792/160499278-fe103104-de55-4d72-9f3e-c94dc9b9e30a.PNG)
+
+
+##### Models
+
+![model](https://user-images.githubusercontent.com/70065792/160501552-1915f001-89d7-4a47-990d-7db1705604cd.PNG)
 
 
 ##### Deploy to deta --> windows command (install deta)
