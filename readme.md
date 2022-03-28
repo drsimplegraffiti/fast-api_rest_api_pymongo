@@ -1,20 +1,36 @@
-## Setup
 
+
+
+![logo-teal](https://user-images.githubusercontent.com/70065792/160499099-29d33c02-d07a-4576-814e-5bb5739a2163.png)
+
+##### Setup
 > pipenv install fastapi "uvicorn[standard]" pymongo pymongo[srv]
 
-## Gitignore
+##### Gitignore
 
 > npx gitignore python
 
-## Env
+##### Env
 
 > pipenv install python-dotenv
+
+![pip](https://user-images.githubusercontent.com/70065792/160499463-01a1771e-feca-41c6-a610-ef9cae67d802.PNG)
+
 
 ##### docs
 
 [openapi](http://127.0.0.1:8000/openapi.json)
+
 [swagger docs](http://127.0.0.1:8000/docs)
+
 [swagger redoc](http://127.0.0.1:8000/redoc)
+
+
+---
+![structure](https://user-images.githubusercontent.com/70065792/160499278-fe103104-de55-4d72-9f3e-c94dc9b9e30a.PNG)
+
+##### Project structure
+
 
 ##### Deploy to deta --> windows command (install deta)
 
