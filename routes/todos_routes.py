@@ -14,6 +14,12 @@ todo_api_router = APIRouter()
 async def root():
     return {"message": "Hello World"}
 
+## path parameter  route
+
+@todo_api_router.get("/todos/{q}")
+async def get_todos(q: str):
+     return {"item_id": q}
+
 # retriever
 @todo_api_router.get("/todos")
 async def get_todos():
