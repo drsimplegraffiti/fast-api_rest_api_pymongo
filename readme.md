@@ -65,6 +65,12 @@
 
 ![server](https://user-images.githubusercontent.com/70065792/160502627-dc1ec504-c3c5-4860-84c6-af042d53d8df.PNG)
 
+---
+
+###### Swagger docs
+![swagger docs](https://user-images.githubusercontent.com/70065792/160504811-d34b4935-194b-4d91-aef7-af00480ab3f3.PNG)
+
+
 ##### Deploy to deta --> windows command (install deta)
 
 > iwr https://get.deta.dev/cli.ps1 -useb | iex
