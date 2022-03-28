@@ -1,1 +1,1 @@
-{"id":"6b4eef64-9716-4978-be47-a6ed3c6756f8","space":20445,"runtime":"python3.9","name":"fastapi_pymongo","path":"phvegm","project":"a0ei39ht","account":"144798365827","region":"eu-central-1","deps":null,"envs":null,"public":true,"log_level":"debug","cron":""}
+{"id":"6b4eef64-9716-4978-be47-a6ed3c6756f8","space":20445,"runtime":"python3.9","name":"fastapi_pymongo","path":"phvegm","project":"a0ei39ht","account":"144798365827","region":"eu-central-1","deps":null,"envs":["MONGO_URI"],"public":true,"log_level":"debug","cron":""}

@@ -49,3 +49,7 @@
 ```
 
 [deployed link](https://phvegm.deta.dev/)
+
+##### Update .env to deta production
+
+> deta update -e .env
