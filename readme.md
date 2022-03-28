@@ -37,6 +37,27 @@
 ![model](https://user-images.githubusercontent.com/70065792/160501552-1915f001-89d7-4a47-990d-7db1705604cd.PNG)
 
 
+###### Request body ---> Todo
+```
+{
+    "name":"walk my cat",
+    "description":"walk my cat to the stadium",
+    "completed":false,
+    "rate":2
+}
+```
+
+###### Request body ---> User
+```
+{
+    "username": "drsimplegra1",
+    "email": "a@c.com",
+    "full_name": "dr simple abayomi",
+    "password": "admin1234",
+    "disabled": true
+}
+```
+
 ---
 
 
