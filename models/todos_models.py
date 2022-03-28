@@ -1,7 +1,8 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 class Todo(BaseModel):
-    name: str
-    description: str
+    name: str = Field(min_length=1)
+    description: str= Field(min_length=1, max_length=100)
     completed: bool
     date: str
+    # rate: int = Field(gt = -1, lt = 100)

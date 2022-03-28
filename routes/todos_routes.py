@@ -1,5 +1,5 @@
 from typing import Optional
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from models.todos_models import Todo
 
 from config.database import collection_name
@@ -16,21 +16,26 @@ async def root():
 
 ## path parameter  route
 
-@todo_api_router.get("/todos/{q}")
-async def get_todos(q: str):
-     return {"item_id": q}
+# @todo_api_router.get("/todos/{q}")
+# async def get_todos(q: str):
+#      return {"item_id": q}
 
 # retriever
 @todo_api_router.get("/todos")
 async def get_todos():
     todos = todos_serializer(collection_name.find())
+    if not todos:
+        raise HTTPException(status_code=404, detail="Item not found")
     return {"status": "ok", "data": todos}
 
 # get single todos from
 @todo_api_router.get("/todos/{id}")
 async def get_todos(id: str, q: Optional[str] = None):
     todo = todos_serializer(collection_name.find({"_id": ObjectId(id)}))
+    if not todo:
+        raise HTTPException(status_code=404, detail=f"{id} does not exist")
     return {"status": "ok", "data": todo}
+    
 
 # Post to db
 @todo_api_router.post("/todos")

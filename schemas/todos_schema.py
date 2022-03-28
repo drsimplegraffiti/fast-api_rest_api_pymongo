@@ -5,6 +5,7 @@ def todo_serializer(todo) -> dict:
         "description": todo["description"],
         "completed": todo["completed"],
         "date": todo["date"],
+        # "rate": todo["rate"]
     }
 
 def todos_serializer(todos) -> list:
