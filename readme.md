@@ -53,3 +53,9 @@
 ##### Update .env to deta production
 
 > deta update -e .env
+
+---
+
+##### Python formatter
+
+> pipenv install black

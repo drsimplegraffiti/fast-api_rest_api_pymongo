@@ -10,3 +10,4 @@ client = MongoClient(MONGO_URI)
 db = client.todo_app
 
 collection_name = db["todos_app"]
+collection_name_user = db["users_app"]
