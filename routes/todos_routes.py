@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import APIRouter
 from models.todos_models import Todo
 
@@ -16,7 +17,7 @@ async def get_todos():
 
 # get single todos from
 @todo_api_router.get("/todos/{id}")
-async def get_todos(id: str):
+async def get_todos(id: str, q: Optional[str] = None):
     todo = todos_serializer(collection_name.find({"_id": ObjectId(id)}))
     return {"status": "ok", "data": todo}
 
