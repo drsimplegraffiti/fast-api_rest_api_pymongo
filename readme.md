@@ -5,3 +5,7 @@
 ## Gitignore
 
 > npx gitignore python
+
+## Env
+
+> pipenv install python-dotenv

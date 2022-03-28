@@ -9,6 +9,11 @@ from bson import ObjectId
 
 todo_api_router = APIRouter()
 
+#root
+@todo_api_router.get("/")
+async def root():
+    return {"message": "Hello World"}
+
 # retriever
 @todo_api_router.get("/todos")
 async def get_todos():
