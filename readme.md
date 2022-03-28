@@ -37,6 +37,13 @@
 ![model](https://user-images.githubusercontent.com/70065792/160501552-1915f001-89d7-4a47-990d-7db1705604cd.PNG)
 
 
+---
+
+
+##### Run server
+
+![server](https://user-images.githubusercontent.com/70065792/160502627-dc1ec504-c3c5-4860-84c6-af042d53d8df.PNG)
+
 ##### Deploy to deta --> windows command (install deta)
 
 > iwr https://get.deta.dev/cli.ps1 -useb | iex
